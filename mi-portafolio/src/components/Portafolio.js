@@ -1,5 +1,9 @@
 import React from "react";
 import '../styles/Portafolio.css'
+import github from '../assets/icons/github.svg'
+import twitter from '../assets/icons/twitter.svg'
+import linkedin from '../assets/icons/linkedin.svg'
+import youtube from '../assets/icons/youtube.svg'
 
 function Portafolio(){
     return(
@@ -14,10 +18,10 @@ function Portafolio(){
                         <p>Front-end Junior</p>
                     </div>
                     <div className="perfil-icons">
-                        <a href="https://github.com/Lferd10"><img src={require("../assets/icons/github.svg")} alt="github"/></a>
-                        <a href="https://twitter.com/VallejosCopa"><img src={require("../assets/icons/twitter.svg")} alt="twitter"/></a>
-                        <a href="https://www.linkedin.com/"><img src={require("../assets/icons/linkedin.svg")} alt="linkedin"/></a>
-                        <a href="https://www.youtube.com/channel/UCTS50nbi3GP0hSHTcnc57bQ"><img src={require("../assets/icons/youtube.svg")} alt="youtube"/></a>
+                        <a href="https://github.com/Lferd10"><img src={github} alt="github"/></a>
+                        <a href="https://twitter.com/VallejosCopa"><img src={twitter} alt="twitter"/></a>
+                        <a href="https://www.linkedin.com/"><img src={linkedin} alt="linkedin"/></a>
+                        <a href="https://www.youtube.com/channel/UCTS50nbi3GP0hSHTcnc57bQ"><img src={youtube} alt="youtube"/></a>
                     </div>
                 </div>
             </div>
