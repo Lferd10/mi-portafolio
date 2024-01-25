@@ -1,0 +1,173 @@
+
+
+.main-container{
+    background-color: var(--light-black);
+    width: 100%;
+    height: 150vh;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.perfil-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.perfil-img{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    margin: 20px;
+}
+.perfil-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid var(--white);
+}
+
+.perfil-name{
+    width: 350px;
+    height: 180px;
+    margin: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.name h2{
+    color: var(--white);
+    font-size: var(--lg);
+}
+.name{
+    color: var(--gray);
+    font-size: var(--md);
+    margin: 10px;
+}
+.perfil-icons{
+    margin: 10px;
+}
+.perfil-icons a img{
+    margin: 0 12px 0 0;
+    cursor: pointer;
+}
+
+.perfil-facts{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facts{
+    color: var(--gray);
+    text-align: center;
+    margin: 15px;
+    width: 150px;
+}
+
+.perfil-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.perfil-buttons button{
+    border: none;
+    border-radius: 10px;
+    font-size: var(--md);
+    margin: 10px;
+    cursor: pointer;
+    width: 50%;
+    height: 60px;
+}
+
+.download{
+    background-color: var(--orange);
+    color: var(--black);
+}
+.contact{
+    background-color: var(--gray-dark);
+    color: var(--gray);
+}
+
+.tabs-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--gray-dark);
+    border-radius: 10px;
+}
+.tabs-buttons button{
+    margin: 15px 0 15px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: var(--md);
+    cursor: pointer;
+    width: 45%;
+    height: 60px;
+}
+.portafolio{
+    background-color: var(--light-black);
+    color: var(--gray);
+}
+.skills{
+    background-color: var(--gray-dark);
+    color: var(--gray);
+}
+
+
+.tabs-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-content: center;
+}
+.tabs-content img{
+    margin: 15px;
+    width: 280px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+
+
+/*///////////////////////////////*/
+@media(max-width: 768px) {
+
+    .main-container{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .perfil-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .perfil-name{
+        text-align: center;
+    }
+    .perfil-name img{
+        margin: 10px 0 0 0;
+        padding: 10px;
+    }
+
+    .perfil-buttons{
+        justify-content: center;
+        margin: 40px 0 40px 0;
+    }
+    .tabs-buttons{
+        justify-content: center;
+        margin: 40px 0 40px 0;
+    }
+
+    .tabs-content{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .tabs-content img{
+        width: 85%;
+        height: 300px;
+    }
+
+}
