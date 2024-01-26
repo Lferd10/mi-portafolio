@@ -4,8 +4,6 @@ import Portafolio from "./components/portafolio.js";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Portafolio/>
-    </main>
+    <Portafolio/>
   );
 }

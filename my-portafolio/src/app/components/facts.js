@@ -1,5 +1,5 @@
 "use client"
-
+import style from './facts.module.css'
 
 function Facts(){
     return(

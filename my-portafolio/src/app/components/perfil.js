@@ -1,7 +1,8 @@
 "use client"
-import style from '';
+import style from './perfil.module.css';
 
 import Image from "next/image";
+import perfil from '../assets/images/perfil_picture.jpeg';
 import github from '../assets/icons/github.svg'
 import twitter from '../assets/icons/twitter.svg'
 import linkedin from '../assets/icons/linkedin.svg'
@@ -11,7 +12,7 @@ function Perfil(){
     return(
         <div className={style["profile"]}>
             <figure className={style["profile-img"]}>
-                <img src="assets/images/perfil_picture.jpeg" />
+                <Image src={perfil} />
             </figure>
             <div className={style["profile-info"]}>
                 <h1>Victor Alvarado</h1>

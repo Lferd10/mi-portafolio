@@ -30,3 +30,21 @@
     line-height: normal;
     text-align: center;
 }
+
+@media(max-width: 768px) {
+    .tabs {
+        margin: 15px;
+        gap: 10px;
+    }
+
+    .tabs-background-item {
+        margin: 10px;
+        width: 150px;
+        height: 50px;
+    }
+
+    .tabs-background-item p {
+        font-size: var(--xs);
+        font-weight: 300;
+    }
+}

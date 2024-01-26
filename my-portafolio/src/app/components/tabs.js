@@ -1,4 +1,5 @@
 "use client"
+import style from './tabs.module.css'
 
 function Tabs(){
     return(
@@ -12,3 +13,5 @@ function Tabs(){
         </div>
     );
 }
+
+export default Tabs;

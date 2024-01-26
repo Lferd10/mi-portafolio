@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
 import download from '../assets/icons/download.svg'
+import style from './botones.module.css'
 
 function Botones(){
     return(

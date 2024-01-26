@@ -1,4 +1,6 @@
 "use client"
+import style from './galeria.module.css'
+
 import Image from "next/image";
 import hero from '../assets/images/Hero_2.png';
 import link from '../assets/icons/link.svg';
@@ -46,3 +48,4 @@ function Galeria(){
         </div>
     );
 }
+export default Galeria;

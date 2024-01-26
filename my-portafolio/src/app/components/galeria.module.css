@@ -77,3 +77,9 @@
     border-radius: 50%;
     border: 0px;
 }
+
+@media(max-width: 768px) {
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+}
