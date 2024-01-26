@@ -1,0 +1,33 @@
+.facts {
+    display: flex;
+    padding: 20px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.fact-item {
+    display: flex;
+    width: 148px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-item h2 {
+    color: var(--secondary-clear);
+    font-size: var(--md);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.fact-item p {
+    color: var(--secondary-clear);
+    font-size: var(--sm);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+.buttons {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 38px;
+}
+
+.btn-primary {
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    background: var(--yellow);
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.btn-primary .btn-content p {
+    color: var(--primary-background);
+    font-size: var(--sm);
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.btn-secondary {
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    background: var(--secondary-background);
+    text-decoration: none;
+
+}
+
+.btn-secondary .btn-content p {
+    color: var(--secondary-clear);
+    font-size: var(--sm);
+    font-weight: 500;
+    line-height: normal;
+
+}
