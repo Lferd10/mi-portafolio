@@ -15,6 +15,7 @@
     overflow: hidden;
     background-size: contain;
     position: relative;
+    cursor: pointer;
 }
 
 .content-card-img .image {

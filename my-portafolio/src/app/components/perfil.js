@@ -10,7 +10,7 @@ import youtube from '../assets/icons/youtube.svg'
 
 function Perfil(){
     return(
-        <div className={style["profile"]}>
+        <div className={style.profile}>
             <figure className={style["profile-img"]}>
                 <Image src={perfil} />
             </figure>
@@ -22,13 +22,13 @@ function Perfil(){
                         <Image src={github} alt="github" className={style["profile-social-img"]}/>
                     </a>
                     <a href="https://twitter.com/VallejosCopa" target="_blank">
-                        <Image src={twitter} alt="github" className={style["profile-social-img"]}/>
+                        <Image src={twitter} alt="twitter" className={style["profile-social-img"]}/>
                     </a>
                     <a href="https://linkedin.com" target="_blank">
-                        <Image src={linkedin} alt="github" className={style["profile-social-img"]}/>
+                        <Image src={linkedin} alt="linkedin" className={style["profile-social-img"]}/>
                     </a>
                     <a href="https://www.youtube.com/channel/UCTS50nbi3GP0hSHTcnc57bQ" target="_blank">
-                        <Image src={youtube} alt="github" className={style["profile-social-img"]}/>
+                        <Image src={youtube} alt="youtube" className={style["profile-social-img"]}/>
                     </a>
                 </div>
             </div>

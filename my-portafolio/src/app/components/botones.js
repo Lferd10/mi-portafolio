@@ -6,7 +6,7 @@ import style from './botones.module.css'
 function Botones(){
     return(
         <div className={style["buttons"]}>
-            <button className={style["btn-primary"]} onclick="download()">
+            <button className={style["btn-primary"]}>
                 <div className={style["btn-content"]}>
                     <p>Download CV</p>
                     <Image src={download} alt="arrow" className={style["btn-primary-img"]}/>

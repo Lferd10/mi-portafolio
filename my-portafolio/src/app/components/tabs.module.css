@@ -8,6 +8,11 @@
     gap: 50px;
 }
 
+.tabs-background-item.active {
+    border-radius: 10px;
+    background: var(--primary-background);
+}
+
 .tabs-background-item {
     border: none;
     border-radius: 10px;
@@ -15,12 +20,6 @@
     width: 300px;
     height: 80px;
     background: var(--secondary-background);
-}
-
-.tabs-background-item.active {
-    border-radius: 10px;
-    background: var(--primary-background);
-
 }
 
 .tabs-background-item p {
