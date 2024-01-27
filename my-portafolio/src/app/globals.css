@@ -38,6 +38,18 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --background-gray: #c6c6c6;
+  --primary-background: #80cd32;
+  --secondary-background: #39a2bf;
+  --primary-clear: #0f6600;
+  --secondary-clear: #113b6a;
+  --white: #FFFFFF;
+  --purple: #302597;
+  --xs: 14px;
+  --sm: 22px;
+  --md: 24px;
+  --lg: 46px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,18 +83,6 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
 
-    --background-gray: #c6c6c6;
-    --primary-background: #80cd32;
-    --secondary-background: #39a2bf;
-    --primary-clear: #0f6600;
-    --secondary-clear: #113b6a;
-    --white: #FFFFFF;
-    --yellow: #302597;
-    --xs: 14px;
-    --sm: 22px;
-    --md: 24px;
-    --lg: 46px;
-
   }
 }
 
@@ -96,5 +96,6 @@ body {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+    font-family: 'Poppins';
   }
 }
