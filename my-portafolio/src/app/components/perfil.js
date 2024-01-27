@@ -15,8 +15,8 @@ function Perfil(){
                 <Image src={perfil} />
             </figure>
             <div className={style["profile-info"]}>
-                <h1>Victor Alvarado</h1>
-                <p>Software Engineer</p>
+                <h1>Luis Fernando Vallejos</h1>
+                <p>Front-end Junior</p>
                 <div className={style["profile-social"]}>
                     <a href="https://github.com/Lferd10" target="_blank">
                         <Image src={github} alt="github" className={style["profile-social-img"]}/>

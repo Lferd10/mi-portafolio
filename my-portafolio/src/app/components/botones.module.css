@@ -7,10 +7,12 @@
 }
 
 .btn-primary {
+    border: none;
     width: 290px;
     height: 80px;
     border-radius: 10px;
     background: var(--yellow);
+    cursor: pointer;
 }
 
 .btn-content {

@@ -30,7 +30,7 @@ function Galeria(){
                 <div className={style["content-card-img-overlay"]}></div>
             </div>
             <div className={style["content-card-img"]}>
-                <Image className={style["image grayscale"]} src={pictures} />
+                <Image className={style["image"]} src={pictures} />
                 <div className={style["content-card-img-overlay"]}></div>
             </div>
             <div className={style["content-card-img"]}>
@@ -42,7 +42,7 @@ function Galeria(){
                 <div className={style["content-card-img-overlay"]}></div>
             </div>
             <div className={style["content-card-img"]}>
-                <Image className={style["image grayscale"]} src={issima}/>
+                <Image className={style["image"]} src={issima}/>
                 <div className={style["content-card-img-overlay"]}></div>
             </div>
         </div>

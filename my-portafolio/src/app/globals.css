@@ -71,12 +71,13 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
 
-    --primary-background: #0C151D;
-    --secondary-background: #171F26;
-    --primary-clear: #F1F2F4;
-    --secondary-clear: #A3ABB2;
+    --background-gray: #c6c6c6;
+    --primary-background: #80cd32;
+    --secondary-background: #39a2bf;
+    --primary-clear: #0f6600;
+    --secondary-clear: #113b6a;
     --white: #FFFFFF;
-    --yellow: #FFE071;
+    --yellow: #302597;
     --xs: 14px;
     --sm: 22px;
     --md: 24px;
@@ -88,8 +89,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--primary-background);
-    font-family: Poppins;
+    background-color: var(--background-gray);
+    font-family: 'Poppins';
 }
 
 @media (prefers-color-scheme: dark) {
